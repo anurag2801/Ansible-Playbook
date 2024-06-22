@@ -14,10 +14,7 @@ Prerequisites
     Ansible Inventory File
         Update the /etc/ansible/hosts file on your Ansible control machine to include the IP address or hostname of the remote machine under a suitable group. Example:
 
-        ini
-
-        [remote]
-        3.110.178.58 ansible_user=ubuntu
+       3.110.178.58 ansible_user=ubuntu
 
         Replace 3.110.178.58 with your remote machine's IP address and ubuntu with the appropriate SSH username.
 
